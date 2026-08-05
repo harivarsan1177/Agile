@@ -1,15 +1,13 @@
 def calculate_grade(marks):
- if marks >= 90:
-  return "A"
- elif marks >= 75:
-  return "B"
- elif marks >= 60:
-  return "C"
- else:
-  return "F"
-def average(marks_list):
- return sum(marks_list) / len(marks_list) 
+    if marks >= 90:
+        return "A"
+    elif marks >= 75:
+        return "B"
+    elif marks >= 60:
+        return "C"
+    else:
+        return "F"
 if __name__ == "__main__":
- marks = 82
- print("Marks:", marks)
- print("Grade:", calculate_grade(marks))
+    marks = 82
+    print("Marks:", marks)
+    print("Grade:", calculate_grade(marks))
